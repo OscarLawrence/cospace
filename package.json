@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "translate": "tsx ./translator.ts",
+    "build": "translate && nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "@dicebear/collection": "^9.2.2",
+    "@dicebear/core": "^9.2.2",
+    "@iconify-json/lucide": "^1.2.27",
+    "@iconify-json/simple-icons": "^1.2.26",
+    "@nuxt/ui": "3.0.0-beta.2",
+    "@nuxtjs/device": "^3.2.4",
+    "@nuxtjs/i18n": "9.0.0-rc.2",
+    "idb": "^8.0.2",
+    "nuxt": "^3.15.4",
+    "qrcode": "^1.5.4",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@google-cloud/translate": "^8.5.1",
+    "@nuxt/eslint": "^1.1.0",
+    "@nuxt/test-utils": "^3.17.1",
+    "@vue/test-utils": "^2.4.6",
+    "eslint": "^9.21.0",
+    "happy-dom": "^17.2.2",
+    "playwright-core": "^1.50.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  }
+}
