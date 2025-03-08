@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "translate": "tsx ./translator.ts",
-    "build": "translate && nuxt build",
+    "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
